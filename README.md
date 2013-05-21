@@ -1,5 +1,9 @@
 == Welcome to Rails
 
+#Pizza Knight
+
+This is the sample application for [One Month Rails blah blah blah]
+
 Rails is a web-application framework that includes everything needed to create
 database-backed web applications according to the Model-View-Control pattern.
 
