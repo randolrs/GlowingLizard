@@ -1,4 +1,18 @@
 Pizza::Application.routes.draw do
+  
+  devise_for :users
+
+get 'about' => 'pages#about'
+
+get 'knight' => 'pages#knight'
+
+  #Setting root
+
+
+root :to => 'pages#home'
+
+# 'controller#action'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

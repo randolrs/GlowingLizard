@@ -34,4 +34,12 @@ Pizza::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  config.action_mailer.default_url_opt
+  ions = { :host => 'localhost:3000'}
+
+  # In production, :host should be set to the actual host 
+  # of the application
+
+
 end

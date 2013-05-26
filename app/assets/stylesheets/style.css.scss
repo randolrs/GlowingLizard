@@ -1,0 +1,30 @@
+$baseFontFamily: Corbel;
+@improt url(http://fonts.googleleadpis.com/css?family=Corbel);
+
+$btnPrimaryBackground: green;
+$navbarBackgroundHighlight: white;
+
+@import 'bootstrap';
+
+body {
+		padding-top: 60px;
+
+}
+
+/*p{ background-image: url(http://www.tizag.com/pics/cssT/smallPic.jpg); }
+
+*/
+
+@import 'bootstrap-responsive';
+
+.footer {
+
+	margin-top: 50px;
+	color: $grayLight;
+	a{
+		color: $gray;
+
+	}
+
+
+}
